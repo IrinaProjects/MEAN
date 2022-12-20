@@ -8,8 +8,10 @@ import { GroundZeroComponent } from './Shared/ground-zero/ground-zero.component'
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { HttpClientModule } from '@angular/common/http';
 
-const material = [MatIconModule];
+const material = [MatIconModule, MatButtonModule];
 
 const routes: Routes = [{ path: '', component: GroundZeroComponent }];
 
@@ -25,6 +27,7 @@ const routes: Routes = [{ path: '', component: GroundZeroComponent }];
     BrowserModule,
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,16 +1,20 @@
 footer {
   color: whitesmoke;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .carre1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: linear-gradient(rgba(74, 30, 156, 0.418), rgb(81, 37, 122));
+  background: linear-gradient(#311b92, rgb(81, 37, 122));
   padding-left: 200px;
   height: 200px;
+}
+
+.blockA {
+  margin-bottom: 20px;
 }
 
 .block1 {
@@ -59,7 +63,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding-left: 200px;
-  height: 450px;
+  height: 250px;
   padding-top: 100px;
 }
 
@@ -94,11 +98,11 @@ footer {
 
 div a {
   text-decoration: none;
-  color: rgb(71, 130, 240);
+  color: rgb(189, 192, 198);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a:hover {
-  color: aquamarine;
+div a:hover {
+  color: #ffd740;
   text-decoration: underline;
 }
