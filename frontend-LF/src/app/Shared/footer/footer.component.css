@@ -106,3 +106,19 @@ div a:hover {
   color: #ffd740;
   text-decoration: underline;
 }
+
+button {
+  background: #ffd740;
+  color: #311b92;
+  border: none;
+  height: 30px;
+  width: 25%;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-left: 4px;
+}
+
+input {
+  height: 1.5rem;
+  width: 70%;
+}
